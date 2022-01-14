@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contact-us.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Send us a message</h1>
+        <p>serving the best!</p>
+      </header>
+      <form>
+        <fieldset>
+          <label for="name">First & Last Name </label>
+          <input type="text" id="name" name="name" />
+          <label for="phone">Phone number </label>
+          <input type="tel" name="phone" id="phone" />
+          <label for="email">Email address </label>
+          <input type="email" name="email" id="email" />
+        </fieldset>
+        <fieldset>
+          <label for="address"> Address (optional) </label>
+          <textarea
+            name="address"
+            id="address"
+            cols="30"
+            rows="10"
+            placeholder="road-no-2, new street road, hyderabad ...."
+          ></textarea>
+        </fieldset>
+        <fieldset>
+          <label for="message">Message</label>
+          <textarea
+            name="message"
+            id="message"
+            cols="30"
+            rows="10"
+            placeholder="what type of tiles do you have ?"
+          ></textarea>
+        </fieldset>
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+  </body>
+</html>
